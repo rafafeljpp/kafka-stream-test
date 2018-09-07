@@ -1,0 +1,5 @@
+/home/rafael/kafka/kafka-stream/src/main/java/com/sigis/kafkastream/Consumer.java
+/home/rafael/kafka/kafka-stream/src/main/java/com/sigis/kafkastream/Producer.java
+/home/rafael/kafka/kafka-stream/src/main/java/com/sigis/kafkastream/DemoRebalancer.java
+/home/rafael/kafka/kafka-stream/src/main/java/com/sigis/kafkastream/Streamer.java
+/home/rafael/kafka/kafka-stream/src/main/java/com/sigis/kafkastream/AvroUtils.java

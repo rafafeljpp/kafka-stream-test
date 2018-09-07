@@ -1,0 +1,4 @@
+com/sigis/kafkastream/Consumer.class
+com/sigis/kafkastream/Consumer$1.class
+com/sigis/kafkastream/DemoRebalancer.class
+com/sigis/kafkastream/AvroUtils.class
