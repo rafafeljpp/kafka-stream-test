@@ -33,18 +33,12 @@ public class StreamText {
 
 
 
-        // Now do the magic.
-
-
-        // Show it.
-
-
         KStream<String, String> x = sb.flatMap(
                 (key, value) -> {
                     List<KeyValue<String, String>> result = new LinkedList<>();
                     try{
                         NexoMessage data = new Gson().fromJson(value, NexoMessage.class);
-                        System.out.print(data.deviceType);
+                        System.out.print(data.consoleCode + "-> " + data.deviceType +"\n");
 
                     }catch (Exception e){
                         System.out.print(e.toString());
